@@ -136,28 +136,3 @@ import { Easing } from 'react-native-reanimated';
   }}
 />
 ```
-
-## Publishing
-
-This package can be published to npm registry using either npm or yarn:
-
-### Using npm
-
-```bash
-npm login
-npm publish
-```
-
-### Using yarn
-
-```bash
-yarn login
-yarn publish
-```
-
-**Note:** npm and yarn use the same npm registry, so publishing with either tool makes the package available for both `npm install` and `yarn add`.
-
-## License
-
-MIT
-
