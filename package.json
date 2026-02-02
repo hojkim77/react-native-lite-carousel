@@ -1,0 +1,45 @@
+{
+  "name": "react-native-lite-carousel",
+  "version": "1.0.1",
+  "description": "A lightweight, performant carousel component for React Native built with Reanimated and Gesture Handler",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "carousel",
+    "slider",
+    "swiper",
+    "reanimated",
+    "gesture-handler",
+    "typescript"
+  ],
+  "author": "hojkim77",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hojkim77/react-native-lite-carousel"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0",
+    "react-native-gesture-handler": ">=2.0.0",
+    "react-native-reanimated": ">=2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.72.0",
+    "react": "^18.0.0",
+    "react-native": "^0.72.0",
+    "react-native-gesture-handler": "^2.12.0",
+    "react-native-reanimated": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
